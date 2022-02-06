@@ -7,7 +7,7 @@
     register: omz_dir
 
   - name: Run oh-my-zsh install.sh
-    command: sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+    shell: sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
     environment:
       KEEP_ZSHRC: "yes"  # don't change .zshrc
       RUNZSH: "no"  # don't launch zsh
@@ -16,3 +16,4 @@
     changed_when: true
 
   become: false
+  tags: ["post"]
