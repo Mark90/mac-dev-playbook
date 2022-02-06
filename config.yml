@@ -60,7 +60,7 @@ homebrew_installed_packages:
   - zsh-history-substring-search
   - zsh-autosuggestions
   - zsh-completions
-  - fast-syntax-highlighting # zsh
+  - zsh-fast-syntax-highlighting
   - docker-compose
   - nvm
   - kubectl
@@ -83,10 +83,10 @@ homebrew_cask_apps:
   - telegram
   - signal
   - microsoft-office
-  - microsoft-teams
+  - microsoft-teams  # Requires Rosetta on arm
   - pomodone
   - sublime-text
-  - vagrant
+  # - vagrant  # Requires Rosetta on arm
   - visual-studio-code
   - pycharm
   - beyond-compare
@@ -95,7 +95,7 @@ homebrew_cask_apps:
   - postman
   - lens
   - wireshark
-  - spectacle
+  # - spectacle  # Broken
   - tunnelblick
   - itsycal
   - macpass
