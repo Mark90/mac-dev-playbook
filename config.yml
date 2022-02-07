@@ -68,6 +68,7 @@ homebrew_installed_packages:
   - jq
   - tldr
   - vim
+  - libpq # psycopg2
 
 
 homebrew_taps:
@@ -149,3 +150,4 @@ sublime_package_control:
 # Glob pattern to ansible task files to run after all other tasks are finished.
 post_provision_tasks:
   - tasks/oh-my-zsh.yml
+  - tasks/symlink-brew-kegs.yml

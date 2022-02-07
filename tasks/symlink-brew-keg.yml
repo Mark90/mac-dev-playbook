@@ -1,0 +1,15 @@
+- name: Check if keg is already linked
+  stat:
+    path: "{{ homebrew_brew_bin_path }}/{{ item.check }}"
+  register: keg_check
+  tags: ["post"]
+
+- name: Unlink package {{ item.name }}
+  command: "brew unlink {{ item.name }}"
+  when: not keg_check.stat.exists
+  tags: ["post"]
+
+- name: Symlink keg package {{ item.name }}
+  command: "brew link --force {{ item.name }}"  # --force required for kegs
+  when: not keg_check.stat.exists
+  tags: ["post"]

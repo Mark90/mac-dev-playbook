@@ -1,0 +1,11 @@
+---
+# This is so we don't have to add all these brew folders to PATH
+# TODO move items to config.yml
+- name: Symlink brew kegs into homebrew's main folder
+  include_tasks: tasks/symlink-brew-keg.yml
+  loop:
+    - name: libpq
+      check: pg_config
+    - name: openssl
+      check: openssl
+  tags: ["post"]
