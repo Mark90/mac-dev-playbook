@@ -95,7 +95,7 @@ homebrew_cask_apps:
   - postman
   - lens
   - wireshark
-  # - spectacle  # Broken
+  - rectangle
   - tunnelblick
   - itsycal
   - macpass
