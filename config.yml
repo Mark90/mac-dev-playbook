@@ -24,7 +24,7 @@ sudoers_custom_config: ''
 #   # Allow users in admin group to use sudo with no password.
 #   %admin ALL=(ALL) NOPASSWD: ALL
 
-dotfiles_repo: https://github.com/Mark90/dotfiles.git
+dotfiles_repo: git@github.com:Mark90/dotfiles.git
 dotfiles_repo_accept_hostkey: true
 dotfiles_repo_local_destination: ~/.dotfiles
 dotfiles_files:
@@ -53,6 +53,7 @@ homebrew_installed_packages:
   - xz
   - zlib
   - pyenv
+  - pyenv-virtualenv
   - wget
   - docker-completion
   - htop
