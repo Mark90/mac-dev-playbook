@@ -99,8 +99,8 @@ homebrew_cask_apps:
   - wireshark
   - rectangle
   - tunnelblick
-  - itsycal
   - macpass
+  - scroll-reverser
 
 # See `geerlingguy.mas` role documentation for usage instructions.
 mas_installed_apps: []
