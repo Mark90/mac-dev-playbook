@@ -1,0 +1,6 @@
+---
+- name: Ensure bc4 license
+  copy:
+    src: "files/beyond-compare/BC4Key-encrypted.txt"
+    dest: "~/Library/Application Support/Beyond Compare/BC4Key.txt"
+  tags: ["post"]

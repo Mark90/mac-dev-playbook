@@ -155,3 +155,4 @@ sublime_package_control:
 post_provision_tasks:
   - tasks/oh-my-zsh.yml
   - tasks/symlink-brew-kegs.yml
+  - tasks/bc4key.yml

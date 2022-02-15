@@ -156,6 +156,7 @@ It's my hope that I can get the rest of these things wrapped up into Ansible pla
   5. Set trackpad tracking rate.
   6. Set mouse tracking rate.
   7. Configure extra Mail and/or Calendar accounts (e.g. Google, Exchange, etc.).
+  8. (Mark90) Set content of `~/.vault_pass`
 
 ### Configuration to be added:
 
