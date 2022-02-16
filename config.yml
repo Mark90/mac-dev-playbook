@@ -71,7 +71,8 @@ homebrew_installed_packages:
   - libpq # psycopg2
   - mas
   - go
-  - watch
+  - watch # watch output of a command
+  - dive # docker image layer exploration tool
 
 
 homebrew_taps:
