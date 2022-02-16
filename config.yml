@@ -71,6 +71,7 @@ homebrew_installed_packages:
   - libpq # psycopg2
   - mas
   - go
+  - watch
 
 
 homebrew_taps:
