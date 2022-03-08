@@ -65,6 +65,7 @@ homebrew_installed_packages:
   - docker-compose
   - nvm
   - kubectl
+  - kubectx
   - jq
   - tldr
   - vim
