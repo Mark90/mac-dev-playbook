@@ -74,6 +74,10 @@ homebrew_installed_packages:
   - go
   - watch # watch output of a command
   - dive # docker image layer exploration tool
+  - mkcert # local certificates
+  - tilt # develop in k8s
+  - tcl-tk # TKinter for pysimplegui
+  - helm  # k8s
 
 
 homebrew_taps:
