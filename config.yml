@@ -77,12 +77,16 @@ homebrew_installed_packages:
   - mkcert # local certificates
   - tilt # develop in k8s
   - tcl-tk # TKinter for pysimplegui
-  - helm  # k8s
+  - helm # k8s
+  - telnet
+  - k9s
+  - kubetail # proper k8s logging
 
 
 homebrew_taps:
   - homebrew/core
   - homebrew/cask
+  - johanhaleby/kubetail
 
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:

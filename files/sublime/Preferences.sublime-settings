@@ -304,6 +304,7 @@
   "close_windows_when_empty": true,
   "color_scheme": "Packages/User/Cobalt (SL).tmTheme",
   "create_window_at_startup": false,
+  "open_files_in_new_window": "never",
   "detect_indentation": true,
   "draw_minimap_border": false,
   "draw_white_space": "selection",
