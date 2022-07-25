@@ -83,6 +83,7 @@ homebrew_installed_packages:
   - kubetail # proper k8s logging
   - graphviz
   - linkerd # k8s
+  - rust # the language
 
 
 homebrew_taps:
