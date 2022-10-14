@@ -75,6 +75,7 @@ homebrew_installed_packages:
   - watch # watch output of a command
   - dive # docker image layer exploration tool
   - mkcert # local certificates
+  - nss # Mozilla network security services - to use mkcert certs in firefox
   - tilt # develop in k8s
   - tcl-tk # TKinter for pysimplegui
   - helm # k8s
@@ -84,6 +85,7 @@ homebrew_installed_packages:
   - graphviz
   - linkerd # k8s
   - rust # the language
+  - gnu-tar
 
 
 homebrew_taps:
