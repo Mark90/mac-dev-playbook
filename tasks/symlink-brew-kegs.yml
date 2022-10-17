@@ -8,4 +8,6 @@
       check: pg_config
     - name: openssl
       check: openssl
+    - name: httpie
+      check: httpie
   tags: ["post"]

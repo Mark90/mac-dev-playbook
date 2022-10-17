@@ -86,6 +86,7 @@ homebrew_installed_packages:
   - linkerd # k8s
   - rust # the language
   - gnu-tar
+  - httpie # httpie
 
 
 homebrew_taps:
