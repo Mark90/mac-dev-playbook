@@ -114,7 +114,6 @@ homebrew_cask_apps:
   - drawio
   - iterm2
   - postman
-  - lens
   - wireshark
   - rectangle
   - tunnelblick
