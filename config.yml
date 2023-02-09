@@ -87,6 +87,7 @@ homebrew_installed_packages:
   - rust # the language
   - gnu-tar
   - httpie # httpie
+  - act # run github actions locally
 
 
 homebrew_taps:
