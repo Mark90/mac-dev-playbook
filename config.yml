@@ -88,6 +88,7 @@ homebrew_installed_packages:
   - gnu-tar
   - httpie # httpie
   - act # run github actions locally
+  - pre-commit
 
 
 homebrew_taps:
@@ -114,13 +115,13 @@ homebrew_cask_apps:
   - beyond-compare
   - drawio
   - iterm2
-  - postman
   - wireshark
   - rectangle
   - tunnelblick
   - macpass
   - scroll-reverser
   - mongodb-compass
+  - redisinsight
 
 # See `geerlingguy.mas` role documentation for usage instructions.
 mas_installed_apps:
