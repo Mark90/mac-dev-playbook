@@ -43,6 +43,8 @@ homebrew_installed_packages:
   - bash-completion
   - git
   - gpg
+  - gnupg  # For gpg signing from Jetbrains IDE
+  - pinentry-mac  # For gpg signing from Jetbrains IDE
   - libevent
   - sqlite3
   - nmap
