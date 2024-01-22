@@ -91,6 +91,7 @@ homebrew_installed_packages:
   - httpie # httpie
   - act # run github actions locally
   - pre-commit
+  - fzf  # fuzzy finder https://github.com/junegunn/fzf
 
 
 homebrew_taps:
@@ -177,3 +178,4 @@ post_provision_tasks:
   - tasks/oh-my-zsh.yml
   - tasks/symlink-brew-kegs.yml
   - tasks/bc4key.yml
+  - tasks/brew-post-install.yml

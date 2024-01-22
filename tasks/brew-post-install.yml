@@ -1,0 +1,10 @@
+- name: Check if .fzf.zsh exists
+  stat:
+    path: "{{ lookup('env', 'HOME') }}/.fzf.zsh"
+  register: fzf_zsh
+  tags: ["post"]
+
+- name: Create .fzf.zsh and enable
+  command: "{{ homebrew_prefix }}/opt/fzf/install --no-bash --no-fish --no-update-rc --completion --key-bindings"
+  when: not fzf_zsh.stat.exists
+  tags: ["post"]
