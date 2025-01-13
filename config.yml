@@ -92,6 +92,7 @@ homebrew_installed_packages:
   - pre-commit
   - fzf  # fuzzy finder https://github.com/junegunn/fzf
   - difftastic
+  - uv  # Extremely fast Python package installer and resolver, written in Rust
 
 
 homebrew_taps:
