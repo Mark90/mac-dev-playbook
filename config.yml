@@ -1,5 +1,4 @@
 ---
-downloads: ~/.ansible-downloads/
 
 configure_dotfiles: true
 configure_terminal: true
@@ -96,8 +95,6 @@ homebrew_installed_packages:
 
 
 homebrew_taps:
-  - homebrew/core
-  - homebrew/cask
   - johanhaleby/kubetail
 
 homebrew_cask_appdir: /Applications
