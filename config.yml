@@ -36,6 +36,7 @@ dotfiles_files:
   - .inputrc
   - .osx
   - .vimrc
+  - .pip
 
 homebrew_installed_packages:
   - autoconf
