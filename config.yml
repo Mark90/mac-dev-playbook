@@ -114,7 +114,7 @@ homebrew_cask_apps:
   # - vagrant  # Requires Rosetta on arm
   - visual-studio-code
   - pycharm
-  - beyond-compare
+  - beyond-compare@4
   - drawio
   - iterm2
   - wireshark
