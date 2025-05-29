@@ -94,6 +94,7 @@ homebrew_installed_packages:
   - fzf  # fuzzy finder https://github.com/junegunn/fzf
   - difftastic
   - uv  # Extremely fast Python package installer and resolver, written in Rust
+  - restic  # fast backup/restore tool for dev folder
 
 
 homebrew_taps:
