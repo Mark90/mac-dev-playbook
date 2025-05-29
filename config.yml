@@ -1,5 +1,4 @@
 ---
-
 configure_dotfiles: true
 configure_terminal: true
 configure_osx: true
@@ -17,7 +16,7 @@ dockitems_persist: []
 #   pos: 5
 
 configure_sudoers: false
-sudoers_custom_config: ''
+sudoers_custom_config: ""
 # Example:
 # sudoers_custom_config: |
 #   # Allow users in admin group to use sudo with no password.
@@ -43,8 +42,8 @@ homebrew_installed_packages:
   - bash-completion
   - git
   - gpg
-  - gnupg  # For gpg signing from Jetbrains IDE
-  - pinentry-mac  # For gpg signing from Jetbrains IDE
+  - gnupg # For gpg signing from Jetbrains IDE
+  - pinentry-mac # For gpg signing from Jetbrains IDE
   - libevent
   - sqlite3
   - nmap
@@ -91,11 +90,10 @@ homebrew_installed_packages:
   - httpie # httpie
   - act # run github actions locally
   - pre-commit
-  - fzf  # fuzzy finder https://github.com/junegunn/fzf
+  - fzf # fuzzy finder https://github.com/junegunn/fzf
   - difftastic
-  - uv  # Extremely fast Python package installer and resolver, written in Rust
-  - restic  # fast backup/restore tool for dev folder
-
+  - uv # Extremely fast Python package installer and resolver, written in Rust
+  - restic # fast backup/restore tool for dev folder
 
 homebrew_taps:
   - johanhaleby/kubetail
@@ -110,9 +108,8 @@ homebrew_cask_apps:
   - telegram
   - signal
   - microsoft-office
-  - microsoft-teams  # Requires Rosetta on arm
+  - microsoft-teams
   - sublime-text
-  # - vagrant  # Requires Rosetta on arm
   - visual-studio-code
   - pycharm
   - beyond-compare@4
@@ -158,7 +155,7 @@ pip_packages: []
 
 # Set to 'true' to configure Sublime Text.
 configure_sublime: false
-sublime_base_path: '~/Library/Application Support/Sublime Text'
+sublime_base_path: "~/Library/Application Support/Sublime Text"
 sublime_config_path: "Packages/User"
 sublime_package_control:
   - "DocBlockr"
