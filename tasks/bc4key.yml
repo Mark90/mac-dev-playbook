@@ -1,4 +1,10 @@
 ---
+- name: Ensure bc4 libray dir
+  file:
+    path: "~/Library/Application Support/Beyond Compare"
+    state: directory
+    mode: "0755"
+
 - name: Ensure bc4 license
   copy:
     src: "files/beyond-compare/BC4Key-encrypted.txt"
