@@ -125,6 +125,7 @@ homebrew_cask_apps:
   - xscreensaver
   - brave-browser
   - gpg-suite
+  - discord
 
 # See `geerlingguy.mas` role documentation for usage instructions.
 mas_installed_apps:
