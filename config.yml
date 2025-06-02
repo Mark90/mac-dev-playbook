@@ -94,6 +94,7 @@ homebrew_installed_packages:
   - difftastic
   - uv # Extremely fast Python package installer and resolver, written in Rust
   - restic # fast backup/restore tool for dev folder
+  - azure-cli
 
 homebrew_taps:
   - johanhaleby/kubetail
