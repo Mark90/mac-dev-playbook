@@ -96,6 +96,7 @@ homebrew_installed_packages:
   - restic # fast backup/restore tool for dev folder
   - azure-cli
   - zbar # Barcode scanning library
+  - tesseract # OCR engine
 
 homebrew_taps:
   - johanhaleby/kubetail
