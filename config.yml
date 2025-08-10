@@ -95,6 +95,7 @@ homebrew_installed_packages:
   - uv # Extremely fast Python package installer and resolver, written in Rust
   - restic # fast backup/restore tool for dev folder
   - azure-cli
+  - zbar # Barcode scanning library
 
 homebrew_taps:
   - johanhaleby/kubetail
