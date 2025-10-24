@@ -97,6 +97,7 @@ homebrew_installed_packages:
   - azure-cli
   - zbar # Barcode scanning library
   - tesseract # OCR engine
+  - influxdb-cli
 
 homebrew_taps:
   - johanhaleby/kubetail
