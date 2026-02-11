@@ -98,6 +98,7 @@ homebrew_installed_packages:
   - zbar # Barcode scanning library
   - tesseract # OCR engine
   - influxctl # from influxdata/tap
+  - yq
 
 homebrew_taps:
   - johanhaleby/kubetail
