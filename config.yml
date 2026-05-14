@@ -99,6 +99,7 @@ homebrew_installed_packages:
   - tesseract # OCR engine
   - influxctl # from influxdata/tap
   - yq
+  - direnv # automatically activate/deactivate env vars in directories
 
 homebrew_taps:
   - johanhaleby/kubetail
