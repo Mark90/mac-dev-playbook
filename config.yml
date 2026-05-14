@@ -99,6 +99,9 @@ homebrew_installed_packages:
   - tesseract # OCR engine
   - influxctl # from influxdata/tap
   - yq
+  - just # like `make` but actually for development
+  - gh # github client
+  - glab # gitlab client
   - direnv # automatically activate/deactivate env vars in directories
 
 homebrew_taps:
