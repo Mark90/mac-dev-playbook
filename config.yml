@@ -137,6 +137,7 @@ homebrew_cask_apps:
   - gpg-suite
   - discord
   - element
+  - proton-pass
 
 # See `geerlingguy.mas` role documentation for usage instructions.
 mas_installed_apps:
