@@ -12,6 +12,15 @@
         - "{{ playbook_dir }}/config.yml"
       tags: ['always']
 
+    # The dotfiles role symlinks without creating parent dirs, and gpg demands 0700.
+    - name: Ensure ~/.gnupg exists before gpg-agent.conf is linked into it.
+      file:
+        path: ~/.gnupg
+        state: directory
+        mode: '0700'
+      become: false
+      tags: ['always']
+
   roles:
     - role: elliotweiser.osx-command-line-tools
     - role: geerlingguy.mac.homebrew

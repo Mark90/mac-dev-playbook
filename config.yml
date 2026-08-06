@@ -36,6 +36,8 @@ dotfiles_files:
   - .osx
   - .vimrc
   - .pip
+  # Nested path on purpose as bare `.gnupg` would delete other files in the directory
+  - .gnupg/gpg-agent.conf
 
 homebrew_installed_packages:
   - autoconf
