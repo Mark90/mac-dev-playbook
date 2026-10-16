@@ -105,6 +105,7 @@ homebrew_installed_packages:
   - gh # github client
   - glab # gitlab client
   - direnv # automatically activate/deactivate env vars in directories
+  - prek # faster pre-commit
 
 homebrew_taps:
   - johanhaleby/kubetail
